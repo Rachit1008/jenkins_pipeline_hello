@@ -17,7 +17,7 @@ node {
     }
 }
 stage('Get approval'){
-    input "Deploy to prod"
+    input "Deploy to prod?"
 }    
 node {
     stage('deploy to prod'){
