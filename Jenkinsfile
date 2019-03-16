@@ -20,7 +20,7 @@ stage('Get approval'){
     input "Deploy to prod"
 }    
 node {
-    mystage('deploy to prod'){
+    stage('deploy to prod'){
         echo "deployment to prod"
     }
 }    
