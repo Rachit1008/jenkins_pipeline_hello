@@ -16,7 +16,7 @@ node {
         echo "deploying"
     }
 }
-mystage('Get approval'){
+stage('Get approval'){
     input "Deploy to prod"
 }    
 node {
