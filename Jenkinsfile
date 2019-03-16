@@ -16,3 +16,8 @@ node {
         echo "deploying"
     }
 }
+bode {
+    stage('deploy to prod'){
+        echo "deployment to prod"
+    }
+}    
